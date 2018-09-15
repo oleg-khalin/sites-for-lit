@@ -1,0 +1,101 @@
+body {
+	background-color: #fff;
+	font-family: 'Segoe Script';
+	cursor: default;
+}
+
+a {
+	color:  #008B00;
+}
+
+.main_head {
+	position: relative;
+	background: linear-gradient(rgba(0 , 238, 0, .5) 20%, rgba(0 , 238, 0, .3) 80%, rgba(0 , 238, 0, .05) 97%, rgba(0 , 238, 0 , .0) 100%);
+	min-height: 240px;
+	padding: 20px 0;
+}
+
+.main_head .logo_container {
+	float: left;
+	margin-left: 55px;
+}
+
+.main_head .logo_container img {
+	height: 250px;
+	margin-top: 0px;
+	margin-left: 70px;
+}
+
+.imgg {
+	text-align: center;
+}
+
+.imgg img {
+	width: 400px;
+}
+
+.main_head .title_container {
+	color:  #008B00;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 250px;
+	text-transform: uppercase;
+}
+
+.left_mnu ul li {
+	padding: 25px 10px;
+	margin-bottom: 15px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	background-color: #9AFF9A;
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .25), inset 0 2px 0 rgba(255,255,255,.6), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+	/*border-radius: 45%;*/
+	color:  #008B00;
+}
+
+video {
+	width: 100%;
+}
+
+.left_mnu ul li:hover{
+	cursor: pointer;
+	color:   #FF0000 ;
+	padding-top: 26px;
+	padding-bottom: 24px;
+}
+
+.info {
+	font-size: 22px;
+	text-align: justify;
+	color:  #008B00;
+	margin-bottom: 50px;
+}
+
+.videos {
+	text-align: center;
+	padding-bottom: 20px;
+	color:  #008B00;
+}
+
+.info h1 {
+	text-align: center;
+}
+
+.videos h2 {
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+.videos h2:first-child {
+	margin-top: 20px;
+}
+
+.videos video {
+	width: 90%;
+}
+
+.imgf {
+	text-align: center;
+}

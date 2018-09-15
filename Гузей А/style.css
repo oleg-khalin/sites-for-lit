@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(img/fon.png);
+	background-repeat: repeat-y;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	cursor: default;
+	font-family: 'Segoe Script';
+}
+
+.main_head {
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 205, .3) 20%, rgba(0, 0, 205, .1) 80%, rgba(0, 0, 205, .0) 100%);
+	min-height: 240px;
+	padding: 20px 0;
+}
+
+.main_head .logo_container {
+	float: left;
+	margin-left: 150px;
+}
+
+.main_head .logo_container img {
+	height: 200px;
+}
+
+.main_head .title_container {
+	color: #000;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 200px;
+	font-weight: bold;
+}
+
+.left_mnu {
+	position: relative;
+	color: #000;
+	text-align: center;
+}
+
+.left_mnu ul li {
+	padding: 5px;
+	list-style: none;
+	font-size: 18px;
+}
+
+a {
+	color: #000;
+}
+
+.info {
+	font-size: 22px;
+	text-align: justify;
+	color: #000;
+}
+
+h2,
+h3 {
+	font-size: 22px;
+	text-align: center;
+	color: #000;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.left_mnu img {
+	width: 150px;
+}
+
+img {
+	transition: all .5s ease-in-out;
+}
+.dop {
+	opacity: 0;
+	position: absolute;
+	left: 125px;
+}
+.dop:hover {
+	opacity: 1;
+}
+
+.videos {
+	text-align: center;
+}
+
+.videos h2 {
+	margin-top: 50px;
+}
+
+.videos h2:first-child {
+	margin-top: 20px;
+}
+
+.videos video {
+	width: 90%;
+}
+
+ul {
+	list-style-type: circle;
+}

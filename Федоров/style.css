@@ -1,0 +1,129 @@
+body {
+	font-family: "Segoe Script";
+	cursor: default;
+	color:  #000080;
+}
+
+a {
+	color: #000080;
+}
+
+.main_head {
+	position: relative;
+	background: linear-gradient(rgba(176, 196, 222, .85) 20%, rgba(176, 196, 222, .45) 80%, rgba(176, 196, 222, .1) 97%, rgba(176, 196, 222, .01) 100%);
+	min-height: 240px;
+	padding: 20px 0;
+}
+	.main_head .logo_container {
+		float: left;
+	}
+	.main_head .logo_container img {
+		height: 150px;
+		margin-top: 25px;
+		margin-left: 140px;
+	}
+	.main_head .title_container {
+		color: #000080;
+		font-size: 30px;
+		text-align: center;
+		line-height: 200px;
+		text-transform: uppercase;
+	}
+
+	.left_mnu {
+		position: relative;
+}
+.left_mnu ul li {
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	font-size: 25px;
+}
+
+.info {
+	font-size: 22px;
+	text-align: justify;
+	color: #000080;
+}
+
+
+.info img {
+	width: 100%;
+}
+.info img:last-child {
+	margin-bottom: 20px;
+}
+
+
+h2,
+h3 {
+	text-align: center;
+}
+
+.button{
+	display: inline-block;
+	width: 250px;
+	height: 50px;
+	background-color: white;
+	cursor: pointer;
+	padding-top: 13px;
+	height: 80px;
+	padding-top: 25px;
+
+	border-radius: 30%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .25), inset 0 2px 0 rgba(255,255,255,.6), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 3px 20px rgba(0, 0, 0, .25), inset 0 2px 0 rgba(255,255,255,.6), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 3px 20px rgba(0,0,0,.25), inset 0 2px 0 rgba(255,255,255,.6), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+}
+
+.button:hover {
+	box-shadow: inset 0 0 20px rgba(0,0,0,.2), 0 2px 0 rgba(255,255,255,.4), inset 0 2px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0 0 20px rgba(0,0,0,.2), 0 2px 0 rgba(255,255,255,.4), inset 0 2px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow: inset 0 0 20px rgba(0,0,0,.2), 0 2px 0 rgba(255,255,255,.4), inset 0 2px 0 rgba(0,0,0,.1);
+
+	padding-top: 26px;
+	padding-left: 2px;
+}
+
+.videos {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.videos h2 {
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+.videos h2:first-child {
+	margin-top: 20px;
+}
+
+.videos video {
+	width: 90%;
+}
+
+
+.main_footer {
+	margin: 0;
+	background-color: rgba(176, 196, 222, .85);
+	font-size: 15px;
+	font-weight: 300;
+	padding: 30px 0;
+}
+	.main_footer .social_wrap {
+		float: right;
+		line-height: 0;
+	}
+		.main_footer .social_wrap ul {
+			margin: 0;
+		}
+
+.social_wrap li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 3px;
+}
